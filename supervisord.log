@@ -1,0 +1,8 @@
+2023-12-19 20:07:55,044 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-12-19 20:07:55,048 INFO supervisord started with pid 1
+2023-12-19 20:07:56,053 INFO spawned: 'laravel-queue' with pid 7
+2023-12-19 20:07:56,060 INFO spawned: 'laravel-server' with pid 8
+2023-12-19 20:07:56,222 WARN exited: laravel-server (exit status 1; not expected)
+2023-12-19 20:07:57,223 INFO success: laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-12-19 20:07:57,223 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2023-12-19 20:09:09,305 INFO reaped unknown pid 135 (exit status 0)

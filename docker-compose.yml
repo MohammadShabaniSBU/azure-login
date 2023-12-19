@@ -1,0 +1,27 @@
+version: '3'
+
+services:
+  app:
+    image: ghcr.io/mohammadshabanisbu/laravel-octane-docker:8.2-dev
+    container_name: azure-login
+    restart: always
+    networks:
+      - mysql-network
+      - traefik-network
+      - docker-network
+    working_dir: /app
+    volumes:
+      - .:/app
+      - .docker/supervisord.conf:/etc/supervisord.conf
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.azure-login.rule=Host(`${APP_DOMAIN}`)"
+      - "traefik.docker.network=traefik-network"
+
+networks:
+  mysql-network:
+    external: true
+  traefik-network:
+    external: true
+  docker-network:
+    external: true
