@@ -6,3 +6,80 @@
 2023-12-19 20:07:57,223 INFO success: laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2023-12-19 20:07:57,223 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
 2023-12-19 20:09:09,305 INFO reaped unknown pid 135 (exit status 0)
+2023-12-19 20:30:14,743 WARN received SIGTERM indicating exit request
+2023-12-19 20:30:14,743 INFO waiting for laravel-queue to die
+2023-12-19 20:30:15,748 WARN stopped: laravel-queue (terminated by SIGTERM)
+2023-12-19 20:30:25,871 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-12-19 20:30:25,873 INFO supervisord started with pid 1
+2023-12-19 20:30:26,878 INFO spawned: 'laravel-queue' with pid 7
+2023-12-19 20:30:26,885 INFO spawned: 'laravel-server' with pid 8
+2023-12-19 20:30:27,069 WARN exited: laravel-server (exit status 1; not expected)
+2023-12-19 20:30:28,070 INFO success: laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-12-19 20:30:28,070 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2023-12-19 20:31:13,123 INFO reaped unknown pid 106 (exit status 0)
+2023-12-19 20:41:19,800 WARN received SIGTERM indicating exit request
+2023-12-19 20:41:19,801 INFO waiting for laravel-queue to die
+2023-12-19 20:41:20,808 WARN stopped: laravel-queue (terminated by SIGTERM)
+2023-12-19 20:41:22,018 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-12-19 20:41:22,019 INFO supervisord started with pid 1
+2023-12-19 20:41:23,024 INFO spawned: 'laravel-queue' with pid 7
+2023-12-19 20:41:23,031 INFO spawned: 'laravel-server' with pid 8
+2023-12-19 20:41:23,735 WARN exited: laravel-server (exit status 1; not expected)
+2023-12-19 20:41:23,735 INFO reaped unknown pid 23 (terminated by SIGKILL)
+2023-12-19 20:41:23,735 INFO reaped unknown pid 32 (terminated by SIGKILL)
+2023-12-19 20:41:23,735 INFO reaped unknown pid 33 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 34 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 35 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 36 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 37 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 38 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 39 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 40 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 41 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 42 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 43 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 44 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 45 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 46 (terminated by SIGKILL)
+2023-12-19 20:41:23,736 INFO reaped unknown pid 47 (terminated by SIGKILL)
+2023-12-19 20:41:24,738 INFO success: laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-12-19 20:41:24,738 INFO gave up: laravel-server entered FATAL state, too many start retries too quickly
+2023-12-19 20:42:17,794 WARN received SIGTERM indicating exit request
+2023-12-19 20:42:17,794 INFO waiting for laravel-queue to die
+2023-12-19 20:42:18,801 WARN stopped: laravel-queue (terminated by SIGTERM)
+2023-12-19 20:42:20,022 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-12-19 20:42:20,024 INFO supervisord started with pid 1
+2023-12-19 20:42:21,027 INFO spawned: 'laravel-queue' with pid 7
+2023-12-19 20:42:21,029 INFO spawned: 'laravel-server' with pid 8
+2023-12-19 20:42:22,174 INFO success: laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-12-19 20:42:22,174 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-12-19 20:52:26,147 WARN received SIGTERM indicating exit request
+2023-12-19 20:52:26,147 INFO waiting for laravel-queue, laravel-server to die
+2023-12-19 20:52:26,159 INFO stopped: laravel-server (exit status 0)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 791 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 792 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 793 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 794 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 795 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 796 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 797 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 798 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 799 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 800 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 801 (terminated by SIGKILL)
+2023-12-19 20:52:26,159 INFO reaped unknown pid 802 (terminated by SIGKILL)
+2023-12-19 20:52:26,160 INFO reaped unknown pid 803 (terminated by SIGKILL)
+2023-12-19 20:52:26,160 INFO reaped unknown pid 804 (terminated by SIGKILL)
+2023-12-19 20:52:26,160 INFO reaped unknown pid 805 (terminated by SIGKILL)
+2023-12-19 20:52:26,160 INFO reaped unknown pid 806 (terminated by SIGKILL)
+2023-12-19 20:52:26,160 INFO reaped unknown pid 23 (terminated by SIGKILL)
+2023-12-19 20:52:26,161 WARN stopped: laravel-queue (terminated by SIGTERM)
+2023-12-19 20:52:30,072 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-12-19 20:52:30,073 INFO supervisord started with pid 1
+2023-12-19 20:52:31,076 INFO spawned: 'laravel-queue' with pid 7
+2023-12-19 20:52:31,079 INFO spawned: 'laravel-server' with pid 8
+2023-12-19 20:52:32,293 INFO success: laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-12-19 20:52:32,293 INFO success: laravel-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-12-20 07:31:06,254 WARN exited: laravel-queue (exit status 1; not expected)
+2023-12-20 07:31:07,258 INFO spawned: 'laravel-queue' with pid 4573
+2023-12-20 07:31:08,490 INFO success: laravel-queue entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
